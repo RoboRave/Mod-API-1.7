@@ -28,7 +28,7 @@ public class Localization {
         private static String loadedLanguage = getCurrentLanguage();
         private static Properties defaultMappings = new Properties();
         private static Properties mappings = new Properties();
-        private static LinkedList<modInfo> mods = new LinkedList<>();
+        private static LinkedList<modInfo> mods = new LinkedList<modInfo>();
 
         /**
          * Adds localization from a given directory. The files must have the same name as the corresponding language file in minecraft and a ".properties" file
@@ -83,8 +83,7 @@ public class Localization {
                 return mappings.getProperty(key, defaultMappings.getProperty(key)) != null;
         }
 
-        @SuppressWarnings("resource")
-		private static void load(String path, String default_language) {
+        private static void load(String path, String default_language) {
                 InputStream langStream = null;
                 Properties modMappings = new Properties();
 

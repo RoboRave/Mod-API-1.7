@@ -9,10 +9,6 @@ public class ItemBase extends Item
 {
 	public String ingamename="";
 	
-	public ItemBase()
-	{
-		super();
-	}
 	
 	public ItemBase setInGameName(String name)
 	{
@@ -28,6 +24,6 @@ public class ItemBase extends Item
 	  @SideOnly(Side.CLIENT)
 		public void registerIcons(IIconRegister par1IconRegister, String Name)
 	    {
-	        this.itemIcon = par1IconRegister.registerIcon( Name + ":" + (this.getUnlocalizedName().substring(5)));
+	        this.itemIcon = par1IconRegister.registerIcon( Name + ":" + (this.getUnlocalizedName()));
 	    }
 }

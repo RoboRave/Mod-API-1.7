@@ -35,8 +35,8 @@ public class Mod_Api {
 		meta.credits = "(C) Roborave, 2013-2014";
 		meta.authorList = Arrays.asList("Roborave");
 		meta.name = "Mod-API";
-		meta.version = "3.0";
-		//meta.description = "This the core for all my mods.";
+		meta.version = "2.0";
+		meta.description = "API for My Mods.";
 		
 	}
 	

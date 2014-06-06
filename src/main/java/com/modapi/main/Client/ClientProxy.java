@@ -11,6 +11,6 @@ public class ClientProxy extends com.modapi.main.Server.CommonProxy{
 	}
 	public static String getCurrentLanguage() {
 		// TODO Auto-generated method stub
-		return null;
+		return "en_US";
 	}
 }

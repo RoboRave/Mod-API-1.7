@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Properties;
 
 public class ModVersion {
-	private static HashMap<String, ModVersion> instances = new HashMap<>();
+	private static HashMap<String, ModVersion> instances = new HashMap<String, ModVersion>();
 	public String major;
 	public String minor;
 	public String revision;

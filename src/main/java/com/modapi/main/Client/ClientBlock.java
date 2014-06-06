@@ -13,7 +13,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ClientBlock implements AddBlocksAPI {
 	private static final ClientBlock INSTANCE = new ClientBlock();
-	private static final HashMap<String,Block> Blocks = new HashMap<>();
+	private static final HashMap<String,Block> Blocks = new HashMap<String, Block>();
 	//private Block block;
 	public static ClientBlock instance()
 	{
